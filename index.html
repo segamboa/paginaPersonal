@@ -172,13 +172,15 @@
           </div>
         </div>
 
+        <!-- El atributo frameholder ya no es necesario -->
+
         <div class="col-md-4">
           <div class="card">
+            <!-- Falta atributo name para mejorar la accesibilidad -->
             <iframe
               src="https://giphy.com/embed/Qa4f2h4LaGPMVpSjhg"
               width="600"
               height="350"
-              frameborder="0"
               class="giphy-embed card-img-top"
               allowfullscreen
             ></iframe>
@@ -196,12 +198,12 @@
 
         <div class="col-md-4">
           <div class="card">
+            <!-- Falta atributo name para mejorar la accesibilidad -->
             <iframe
               class="giphy-embed card-img-top"
               width="630"
               height="330"
               src="https://www.youtube.com/embed/EtlZV2EaZBQ"
-              frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
@@ -278,6 +280,7 @@
           </div>
         </div>
         <div class="carousel-item">
+          <!-- En pntallas pequeñas a este item no se le ve muy claro el texto -->
           <img
             src="coursera.png"
             alt="Coursera"
@@ -320,10 +323,7 @@
           <div class="col-sm-3">
             <h5>Daily song:</h5>
             <audio controls>
-              <source
-                src="everglow.mp3"
-                type="audio/mpeg"
-              />
+              <source src="everglow.mp3" type="audio/mpeg" />
               Your browser does not support the audio element.
             </audio>
           </div>
@@ -350,3 +350,6 @@
     ></script>
   </body>
 </html>
+
+<!-- Review Miguel Hoyos: Muy buen trabajo, me gusta bastante los colores y como se comporta al cambiarle el tamaño de las pantallas.
+Le recomendaria instalarse un linter en su IDE para que le mencione si la hace falta atributos o si estan depreceted -->
