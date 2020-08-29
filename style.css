@@ -55,10 +55,19 @@
 #colegio {
   color: black;
 }
+
 #slides {
   padding-bottom: 2rem;
   padding-top: 2rem;
+  /*Esto es lo que agrgaría para no tenerlo en el html*/
+  background-color: #adefd1ff;
 }
 footer{
   color: white;
+}
+/*Agregaría este CSS aquí en vez del html*/
+#myFooter{
+  background-image: url(banner.png);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
