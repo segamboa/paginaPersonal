@@ -62,3 +62,8 @@
 footer{
   color: white;
 }
+
+/*Uso del estilo en vez del atributo frameborder=0.*/
+iframe{
+  border: 0;
+}
