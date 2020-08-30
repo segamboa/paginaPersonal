@@ -1,352 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
 
-    <title>Web Page</title>
-  </head>
-  <body>
-    <!--Barra de navegación-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">My website</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#ab">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">My projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#int">My interests</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#int1">Academic information</a>
-            </li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <title>Web Page</title>
+</head>
+
+<body>
+  <!--Barra de navegación-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My website</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#ab">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">My projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#int">My interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#int1">Academic information</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="site-hero" id="section-home" data-stellar-background-ratio="0.5" style="background-color: #adefd1ff">
+    <div class="container">
+      <div class="row intro-text align-items-center justify-content-center">
+        <div class="col-md-10 text-center pt-5">
+          <!--Usar rem en lugar de los pixeles para que sea responsive-->
+          <img id="foto" src="Foto.png" alt="Foto personal" width="600rem" height="700rem" />
+          <h2 class="site-heading site-animate display-4">
+            Hello, I'm <strong class="d-block">Santiago Gamboa</strong>
+          </h2>
         </div>
       </div>
-    </nav>
+    </div>
+  </section>
 
-    <section
-      class="site-hero"
-      id="section-home"
-      data-stellar-background-ratio="0.5"
-      style="background-color: #adefd1ff"
-    >
-      <div class="container">
-        <div class="row intro-text align-items-center justify-content-center">
-          <div class="col-md-10 text-center pt-5">
-            <img
-              id="foto"
-              src="Foto.png"
-              alt="Foto personal"
-              width="250"
-              height="300"
-            />
-            <h2 class="site-heading site-animate display-4">
-              Hello, I'm <strong class="d-block">Santiago Gamboa</strong>
-            </h2>
-          </div>
-        </div>
-      </div>
-    </section>
+  <div class="jumbotron jumbotron-fluid" id="ab">
+    <div class="container">
+      <h1 id="about" class="display-4">About me</h1>
+      <p class="lead">
+        I'm 19 years old and I'm currently studying the seventh semester of
+        Computer Science and Industrial Engineering at Uniandes. I'm
+        interested in software engineering and videogames development and look
+        forward to learn 3d animation as well as the use of musical software.
+        You cand find me on the following links:
+      </p>
+      <a href="https://www.youtube.com/channel/UCz59JKWgb9A3joyCKumjA-g?" class="fa fa-youtube"></a>
+      <a href="https://twitter.com/TeemoAdOp3" class="fa fa-twitter"></a>
+    </div>
+  </div>
+  <!--Usar rem en lugar de los pixeles para que sea responsive-->
 
-    <div class="jumbotron jumbotron-fluid" id="ab">
-      <div class="container">
-        <h1 id="about" class="display-4">About me</h1>
-        <p class="lead">
-          I'm 19 years old and I'm currently studying the seventh semester of
-          Computer Science and Industrial Engineering at Uniandes. I'm
-          interested in software engineering and videogames development and look
-          forward to learn 3d animation as well as the use of musical software.
-          You cand find me on the following links:
+  <div id="projects" class="container-fluid padding">
+    <h1 id="titulo" class="text-center display-4">Some projects</h1>
+    <div class="row text-center padding">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <img src="pmc.png" alt="Mobile app feature" width="290rem" height="200rem" />
+        <h3>PMC</h3>
+        <p>
+          I worked on a project to help people manage their time while they
+          are studying.
         </p>
-        <a
-          href="https://www.youtube.com/channel/UCz59JKWgb9A3joyCKumjA-g?"
-          class="fa fa-youtube"
-        ></a>
-        <a href="https://twitter.com/TeemoAdOp3" class="fa fa-twitter"></a>
+      </div>
+      <!--Usar rem en lugar de los pixeles para que sea responsive-->
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <img src="ratScape.png" alt="Rat scape photo" width="290rem" height="200rem" />
+        <h3>Gamejam project</h3>
+        <p>
+          I developed a short video game with some friends in a gamejam
+          organized by the Universidad de los Andes.
+        </p>
+      </div>
+      <!--Usar rem en lugar de los pixeles para que sea responsive-->
+
+      <div class="col-sm-12 col-md-4">
+        <img src="Idiomas.png" alt="Photo of the web page" width="290rem" height="200rem" />
+        <h3>Idioms app</h3>
+        <p>
+          I developed a web page designed to connect people so that they can
+          learn languages and practice one with another.
+        </p>
       </div>
     </div>
+  </div>
 
-    <div id="projects" class="container-fluid padding">
-      <h1 id="titulo" class="text-center display-4">Some projects</h1>
-      <div class="row text-center padding">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <img
-            src="pmc.png"
-            alt="Mobile app feature"
-            width="220"
-            height="200"
-          />
-          <h3>PMC</h3>
-          <p>
-            I worked on a project to help people manage their time while they
-            are studying.
-          </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <img
-            src="ratScape.png"
-            alt="Rat scape photo"
-            width="260"
-            height="200"
-          />
-          <h3>Gamejam project</h3>
-          <p>
-            I developed a short video game with some friends in a gamejam
-            organized by the Universidad de los Andes.
-          </p>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <img
-            src="Idiomas.png"
-            alt="Photo of the web page"
-            width="260"
-            height="200"
-          />
-          <h3>Idioms app</h3>
-          <p>
-            I developed a web page designed to connect people so that they can
-            learn languages and practice one with another.
-          </p>
-        </div>
+  <div class="container-fluid padding" style="background-image: url(banner.png)">
+    <div class="row welcome text-center">
+      <div class="col-12">
+        <h1 id="int" class="display-4" style="color: white">My interests</h1>
       </div>
+      <hr />
     </div>
+  </div>
 
-    <div
-      class="container-fluid padding"
-      style="background-image: url(banner.png)"
-    >
-      <div class="row welcome text-center">
-        <div class="col-12">
-          <h1 id="int" class="display-4" style="color: white">My interests</h1>
-        </div>
-        <hr />
-      </div>
-    </div>
-
-    <div
-      class="container-fluid padding"
-      style="background-image: url(banner.png); padding-bottom: 2rem"
-    >
-      <div class="row padding">
-        <div class="col-md-4">
-          <div class="card">
-            <img class="card-img-top" src="game.jpg" alt="Videogames" />
-            <div class="card-body">
-              <h4 class="card-title">Video games</h4>
-              <p class="card-text">
-                Ever since I was a kid I've always enjoyed playing video games.
-                I started playing videogames in a play station when I was around
-                4 years old, nowadays I look forward to being a competitive
-                player in a shooter called "Valorant".
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card">
-            <iframe
-              src="https://giphy.com/embed/Qa4f2h4LaGPMVpSjhg"
-              width="600"
-              height="350"
-              frameborder="0"
-              class="giphy-embed card-img-top"
-              allowfullscreen
-            ></iframe>
-            <div class="card-body">
-              <h4 class="card-title">Football</h4>
-              <p class="card-text">
-                Even though I'm not a good player, I love watching football
-                matches, especially the Bundesliga ones. I'm a person who likes
-                to analyze football games in terms of statistics and strategies.
-                My favorite team is Bayern München from Germany.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card">
-            <iframe
-              class="giphy-embed card-img-top"
-              width="630"
-              height="330"
-              src="https://www.youtube.com/embed/EtlZV2EaZBQ"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <div class="card-body">
-              <h4 class="card-title">Music</h4>
-              <p class="card-text">
-                I'm a person who likes hearing music all the time, especially
-                music that tells stories or transmits feelings. My favorite
-                artist is Jon Bellion because of the passion he puts when he
-                composes songs. Down below, you can hear some of his songs.
-              </p>
-              <a
-                href="https://www.youtube.com/watch?v=TdWRBnYJk-Q&list=PLAvisopgVMmCDz27TKKyxY2nc9umhTzM1"
-                class="btn btn-outline-secondary"
-                >Click here!</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid padding" style="background-color: #adefd1ff">
-      <div class="row welcome text-center">
-        <div class="col-12">
-          <h1 id="int1" class="display-4">Academic information</h1>
-        </div>
-        <hr />
-      </div>
-    </div>
-
-    <div
-      id="slides"
-      class="carousel slide text-center"
-      data-ride="carousel"
-      style="background-color: #adefd1ff"
-    >
-      <ul class="carousel-indicators">
-        <li data-target="#slides" data-slide-to="0" class="active"></li>
-        <li data-target="#slides" data-slide-to="1"></li>
-        <li data-target="#slides" data-slide-to="2"></li>
-      </ul>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="colegio.jpg"
-            alt="School"
-            width="1032"
-            height="500"
-            class="responsive"
-          />
-          <div class="carousel-caption" id="colegio">
-            <h1 class="display-2">Basic Education</h1>
-            <p>
-              I graduated from a school called Colegio Charles de Gaulle in
-              201620
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="uniandes.jpg"
-            alt="Uniandes"
-            width="1032"
-            height="500"
-            class="responsive"
-          />
-          <div class="carousel-caption">
-            <h1 class="display-2">University</h1>
-            <p>
-              I started studying at Uniandes on 201720 and I'm currently on the
-              seventh semester of Computer science and Industrial engineering
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="coursera.png"
-            alt="Coursera"
-            width="1032"
-            height="500"
-            class="responsive"
-          />
-          <div class="carousel-caption">
-            <h1 class="display-2">Some courses</h1>
-            <p>
-              Recently, I started a videogame development course on coursera
-              dictated by a teacher from the university.
+  <div class="container-fluid padding" style="background-image: url(banner.png); padding-bottom: 2rem">
+    <div class="row padding">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="game.jpg" alt="Videogames" width="230rem" height="400rem" />
+          <div class="card-body">
+            <h4 class="card-title">Video games</h4>
+            <p class="card-text">
+              Ever since I was a kid I've always enjoyed playing video games.
+              I started playing videogames in a play station when I was around
+              4 years old, nowadays I look forward to being a competitive
+              player in a shooter called "Valorant".
             </p>
           </div>
         </div>
       </div>
-    </div>
 
-    <footer
-      id="myFooter"
-      style="
+      <div class="col-md-4">
+        <div class="card">
+          <iframe src="https://giphy.com/embed/Qa4f2h4LaGPMVpSjhg" width="230rem" height="400rem" frameborder="0"
+            class="giphy-embed card-img-top" allowfullscreen></iframe>
+          <div class="card-body">
+            <h4 class="card-title">Football</h4>
+            <p class="card-text">
+              Even though I'm not a good player, I love watching football
+              matches, especially the Bundesliga ones. I'm a person who likes
+              to analyze football games in terms of statistics and strategies.
+              My favorite team is Bayern München from Germany.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <iframe class="giphy-embed card-img-top" width="230rem" height="400rem"
+            src="https://www.youtube.com/embed/EtlZV2EaZBQ" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="card-body">
+            <h4 class="card-title">Music</h4>
+            <p class="card-text">
+              I'm a person who likes hearing music all the time, especially
+              music that tells stories or transmits feelings. My favorite
+              artist is Jon Bellion because of the passion he puts when he
+              composes songs. Down below, you can hear some of his songs.
+            </p>
+            <a href="https://www.youtube.com/watch?v=TdWRBnYJk-Q&list=PLAvisopgVMmCDz27TKKyxY2nc9umhTzM1"
+              class="btn btn-outline-secondary">Click here!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid padding" style="background-color: #adefd1ff">
+    <div class="row welcome text-center">
+      <div class="col-12">
+        <h1 id="int1" class="display-4">Academic information</h1>
+      </div>
+      <hr />
+    </div>
+  </div>
+
+  <div id="slides" class="carousel slide text-center" data-ride="carousel" style="background-color: #adefd1ff">
+    <ul class="carousel-indicators">
+      <li data-target="#slides" data-slide-to="0" class="active"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="colegio.jpg" alt="School" width="1032" height="500" class="responsive" />
+        <div class="carousel-caption" id="colegio">
+          <h1 class="display-2">Basic Education</h1>
+          <p>
+            I graduated from a school called Colegio Charles de Gaulle in
+            201620
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="uniandes.jpg" alt="Uniandes" width="1032" height="500" class="responsive" />
+        <div class="carousel-caption">
+          <h1 class="display-2">University</h1>
+          <p>
+            I started studying at Uniandes on 201720 and I'm currently on the
+            seventh semester of Computer science and Industrial engineering
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="coursera.png" alt="Coursera" width="1032" height="500" class="responsive" />
+        <div class="carousel-caption">
+          <h1 class="display-2">Some courses</h1>
+          <p>
+            Recently, I started a videogame development course on coursera
+            dictated by a teacher from the university.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer id="myFooter" style="
         background-image: url(banner.png);
         padding-top: 1rem;
         padding-bottom: 1rem;
-      "
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-3">
-            <h5>Thanks for visiting!</h5>
-          </div>
-          <div class="col-sm-3">
-            <h5>My social media:</h5>
-            <a
-              href="https://www.youtube.com/channel/UCz59JKWgb9A3joyCKumjA-g?"
-              class="fa fa-youtube"
-            ></a>
-            <a href="https://twitter.com/TeemoAdOp3" class="fa fa-twitter"></a>
-          </div>
-          <div class="col-sm-3">
-            <h5>Daily song:</h5>
-            <audio controls>
-              <source
-                src="everglow.mp3"
-                type="audio/mpeg"
-              />
-              Your browser does not support the audio element.
-            </audio>
-          </div>
+      ">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <h5>Thanks for visiting!</h5>
+        </div>
+        <div class="col-sm-3">
+          <h5>My social media:</h5>
+          <a href="https://www.youtube.com/channel/UCz59JKWgb9A3joyCKumjA-g?" class="fa fa-youtube"></a>
+          <a href="https://twitter.com/TeemoAdOp3" class="fa fa-twitter"></a>
+        </div>
+        <div class="col-sm-3">
+          <h5>Daily song:</h5>
+          <audio controls>
+            <source src="everglow.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
